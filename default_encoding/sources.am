@@ -1,0 +1,2 @@
+default_encoding_la_SOURCES =				\
+	default_encoding.c

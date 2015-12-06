@@ -50,7 +50,10 @@ $ make install
 
 ## Usage
 
-TODO: Write usage.
+```
+> plugin_register default_encoding/default_encoding
+> defualt_encoding
+```
 
 ## Development
 

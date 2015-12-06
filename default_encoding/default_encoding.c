@@ -20,7 +20,7 @@
 static grn_obj *
 command_default_encoding(grn_ctx *ctx, int nargs, grn_obj **args, grn_user_data *user_data)
 {
-  grn_ctx_output_bool(ctx, GRN_FALSE);
+  grn_ctx_output_cstr(ctx, grn_encoding_to_string(grn_get_default_encoding()));
   return NULL;
 }
 

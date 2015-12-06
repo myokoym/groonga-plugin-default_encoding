@@ -28,6 +28,8 @@ $ make
 
 ## Test
 
+Using [grntest](https://github.com/groonga/grntest).
+
 ```sh
 $ test/run-test.sh
 ```
@@ -49,3 +51,14 @@ $ make install
 ## Usage
 
 TODO: Write usage.
+
+## Development
+
+### Add test
+
+```sh
+$ vi test/suite/new_test.test
+$ test/run-test.sh
+$ cat test/suite/new_test.actual  # Confirm result
+$ mv test/suite/new_test.{actual,expected}  # Rename confirmed test
+```

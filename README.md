@@ -1,6 +1,6 @@
 # groonga-plugin-default_encoding
 
-TODO: Write description.
+Groonga plugin to show default\_encoding.
 
 ## Prepare
 
